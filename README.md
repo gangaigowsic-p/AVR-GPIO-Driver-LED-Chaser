@@ -92,7 +92,7 @@ Understanding these registers provides the foundation for developing firmware th
 
 The project separates the application logic from the GPIO driver.
 
-### 🧠 Application Layer — `main.c`
+### 🧠 Application Layer — `main.c (sketch.ino)`
 
 - Defines the LED sequence.
 - Determines the order of LED transitions.
