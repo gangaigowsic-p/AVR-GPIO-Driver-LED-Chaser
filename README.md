@@ -134,10 +134,16 @@ The following is a suggested structure. Update it to reflect your actual reposit
 
 ```text
 AVR-LED-Chaser/
-├── Led chaser/
-│   ├── gpio.h
-│   └── gpio.cpp
-│   └── sketch.ino
+├── Led chaser updated gpio/
+│   ├── app
+│   |    └── sketch.ino
+|   └── inc
+|   |    └── gpio.h
+│   └── src
+|         └── gpio.cpp
+|---diagram.json
+|---workwi-project.txt
+|---Led chaser/
 ├── README.md
 ```
 
